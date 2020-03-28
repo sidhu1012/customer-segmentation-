@@ -70,7 +70,7 @@ fig = plt.figure(1, figsize=(8, 6))
 plt.clf()
 ax = Axes3D(fig, rect=[0, 0, .95, 1], elev=48, azim=134)
 
-plt.cla()
+plt.clf()
 ax.set_ylabel('Age', fontsize=18)
 ax.set_xlabel('Income', fontsize=16)
 ax.set_zlabel('Education', fontsize=16)
